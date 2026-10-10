@@ -97,9 +97,9 @@ addPatch({
         const width = Math.round(height * (16 / 9));
 
         Object.assign(opts, {
-            bitrateMin: 500000,
-            bitrateMax: 8000000,
-            bitrateTarget: 600000
+            bitrateMin: 3500000,
+            bitrateMax: 20000000,
+            bitrateTarget: 12000000
         });
         if (opts?.encode) {
             Object.assign(opts.encode, {
